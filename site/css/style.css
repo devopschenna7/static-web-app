@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+nav {
+    background: #0b3c6d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+button {
+    background: #0b3c6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer {
+    background: #0b3c6d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
